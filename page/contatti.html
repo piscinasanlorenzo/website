@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Contatti</title>
+  <link rel="icon" type="image/x-icon" href="/static/favicon/favicon.ico">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="/static/css/style.css">
+</head>
+
+<body>
+  <header class="header">
+    <div class="header__content">
+      <a class="header__logo" href="/index.html">
+        <img src="/static/img/Logo.svg" alt=" PISCINA SAN LORENZO">  
+      </a>
+      <div class="header__quick">
+        <div class="icon-hamburger">
+          <span></span>
+          <span></span>
+        </div>
+    </div>
+      <ul class="header__menu">
+        <li><a href="/page/prezzi.html">PREZZI</a></li>
+        <li><a href="/page/bnb.html">BED & BREAKFAST</a></li>
+        <li><a href="/page/servizi.html">SERVIZI</a></li>
+        <li><a style="color: #FFAB00ff;"href="/page/contatti.html">CONTATTI</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <div class="cover__hero" style="background-image:linear-gradient(to bottom, rgba(0,0,0,0.2), rgba(0,0,0,0.6)), url('/static/img/Esterno/E4.jpg');">
+    <div class="cover__content__hero">
+      <div class="grid">
+        <div class="col-100 text-center">
+          <h3>CONTATTACI</h3>
+          <a style="margin-right: 20px; margin-left: 20px; margin-bottom: 20px;"href="tel:+393274658067" class="button"><i class="fa fa-phone"></i> TELEFONO</a>
+          <a style="margin-right: 20px; margin-left: 20px; margin-bottom: 20px;"href="https://api.whatsapp.com/send/?phone=393274658067&text&type=phone_number&app_absent=0"class="button"><i class="fa fa-whatsapp"></i>   WHATSAPP</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="grid">
+    <div class="col-100 text-center pt-3">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2802.30375142001!2d8.1387801767427!3d45.383043138849224!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47862dfe93e5a685%3A0x7ba602fc5233c6cf!2sPiscina%20San%20Lorenzo!5e0!3m2!1sit!2sit!4v1734511897039!5m2!1sit!2sit"></iframe>
+    </div>
+  </div>
+  
+  <div class="grid">
+    <div class="col-100 text-center pt-3 pb-3">
+      <a href="https://www.facebook.com/PiscinaSanLorenzo/?locale=it_IT" class="button-facebook"><i class="fa fa-facebook"></i></a>
+      <a href="https://www.instagram.com/piscina_san_lorenzo/" class="button-instagram"><i class="fa fa-instagram"></i></a>
+      <a href="https://api.whatsapp.com/send/?phone=393274658067&text&type=phone_number&app_absent=0"class="button-whatsapp"><i class="fa fa-whatsapp"></i></a>
+    </div>
+  </div>
+
+  <footer class="footer">
+    <div class="grid">
+      <div class="col-100 text-center">
+        <li>© 1982-2025 All Rights Reserved | Made with &#129505; by ALL STAFF</li>
+        <li>SAN LORENZO S.R.L.S. - BONO ANGELA</li>
+        <li>P.IVA IT02547360020</li>
+        <li>Corso XXV aprile, 52, 13048, Santhià (VC)</li>
+      </div>
+    </div>
+  </footer>
+
+  <script> 
+    let item = document.querySelector('.icon-hamburger');
+    item.addEventListener("click", function() {
+      document.body.classList.toggle('menu-open');
+    });
+  </script>
+
+</body>
+</html>

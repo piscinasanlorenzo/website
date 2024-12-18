@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Servizi</title>
+  <link rel="icon" type="image/x-icon" href="/static/favicon/favicon.ico">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="/static/css/style.css">
+</head>
+
+<body>
+  <header class="header">
+    <div class="header__content">
+      <a class="header__logo" href="/index.html">
+        <img src="/static/img/Logo.svg" alt=" PISCINA SAN LORENZO">  
+      </a>
+      <div class="header__quick">
+        <div class="icon-hamburger">
+          <span></span>
+          <span></span>
+        </div>
+    </div>
+      <ul class="header__menu">
+        <li><a href="/page/prezzi.html">PREZZI</a></li>
+        <li><a href="/page/bnb.html">BED & BREAKFAST</a></li>
+        <li><a style="color: #FFAB00ff;"href="/page/servizi.html">SERVIZI</a></li>
+        <li><a href="/page/contatti.html">CONTATTI</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <div class="spacer"></div>
+
+  <div class="grid mt-3">
+    <div class="col-50">
+      <div class="card">
+        <div class="card__img" style="background-image: url('/static/img/Bar/B1.jpg');"></div>
+        <h3> BAR </h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis quidem provident totam, possimus reprehenderit repellat. Omnis, iusto officiis harum reprehenderit enim asperiores ex ducimus. Possimus quae, numquam at molestias aut?</p>
+      </div>
+    </div>
+    <div class="col-50">
+      <div class="card">
+        <div class="card__img" style="background-image: url('/static/img/Esterno/E21.jpg');"></div>
+        <h3> AREA GIOCHI </h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis quidem provident totam, possimus reprehenderit repellat. Omnis, iusto officiis harum reprehenderit enim asperiores ex ducimus. Possimus quae, numquam at molestias aut?</p>
+      </div>
+    </div>
+  </div>
+  
+  <div class="grid mt-3">
+    <div class="col-50">
+      <div class="card">
+        <div class="card__img" style="background-image: url('https://picsum.photos/1920/1080');"></div>
+        <h3> ANIMAZIONE </h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis quidem provident totam, possimus reprehenderit repellat. Omnis, iusto officiis harum reprehenderit enim asperiores ex ducimus. Possimus quae, numquam at molestias aut?</p>
+      </div>
+    </div>
+    <div class="col-50">
+      <div class="card">
+        <div class="card__img" style="background-image: url('https://picsum.photos/1920/1080');"></div>
+        <h3> PIC-NIC </h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis quidem provident totam, possimus reprehenderit repellat. Omnis, iusto officiis harum reprehenderit enim asperiores ex ducimus. Possimus quae, numquam at molestias aut?</p>
+      </div>
+    </div>
+  </div>
+  
+  
+
+  <div class="grid">
+    <div class="col-100 text-center pt-3 pb-3">
+      <a href="https://www.facebook.com/PiscinaSanLorenzo/?locale=it_IT" class="button-facebook"><i class="fa fa-facebook"></i></a>
+      <a href="https://www.instagram.com/piscina_san_lorenzo/" class="button-instagram"><i class="fa fa-instagram"></i></a>
+      <a href="https://api.whatsapp.com/send/?phone=393274658067&text&type=phone_number&app_absent=0"class="button-whatsapp"><i class="fa fa-whatsapp"></i></a>
+    </div>
+  </div>
+
+  <footer class="footer">
+    <div class="grid">
+      <div class="col-100 text-center">
+        <li>© 1982-2025 All Rights Reserved | Made with &#129505; by ALL STAFF</li>
+        <li>SAN LORENZO S.R.L.S. - BONO ANGELA</li>
+        <li>P.IVA IT02547360020</li>
+        <li>Corso XXV aprile, 52, 13048, Santhià (VC)</li>
+      </div>
+    </div>
+  </footer>
+
+  <script> 
+    let item = document.querySelector('.icon-hamburger');
+    item.addEventListener("click", function() {
+      document.body.classList.toggle('menu-open');
+    });
+  </script>
+
+</body>
+</html>
