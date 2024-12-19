@@ -3,7 +3,7 @@ body, html{ font-family: 'League Gothic', serif; line-height: 1; font-size: 24px
 
 @font-face {
   font-family: League Gothic;
-  src: url("/website/static/font/League_Gothic/LeagueGothic-Regular.ttf");
+  src: url("/static/font/League_Gothic/LeagueGothic-Regular.ttf");
 }
 
 /* ! Color Palette*/
